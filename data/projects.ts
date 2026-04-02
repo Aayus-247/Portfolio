@@ -20,7 +20,7 @@ export const projects = [
     tech: "Python, Pandas, Matplotlib",
     description:
       "A data analysis project to examine student scores, identify trends, and visualize performance.",
-    github: "https://github.com/Aayush-247/student-result-analysis",
+    github: "https://github.com/Aayus-247/ML-project",
     live: "#",
     features: [
       "Data cleaning",
@@ -35,7 +35,7 @@ export const projects = [
     tech: "Python, Scikit-learn, Flask",
     description:
       "A machine learning project that predicts house prices using regression models and user input values.",
-    github: "https://github.com/Aayush-247/house-price-prediction",
+    github: "https://github.com/Aayus-247/Housing-Price-Analysis",
     live: "#",
     features: [
       "ML model training",
@@ -65,7 +65,7 @@ export const projects = [
     tech: "React, JavaScript, CSS",
     description:
       "A theme engine for creating and managing themes in web applications.",
-    github: "https://github.com/Aayush-247/theme-engine",
+    github: "https://github.com/Aayus-247/theme-engine",
     live: "#",
     features: [
       "Theme management",
