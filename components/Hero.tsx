@@ -42,7 +42,7 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center text-center px-6 overflow-hidden">
 
-            {/* 🔥 HIGH FREQUENCY FLOATING ICONS */}
+            {/* HIGH FREQUENCY FLOATING ICONS */}
             <div className="absolute inset-0 pointer-events-none z-0">
                 {/* DARK OVERLAY */}
                 <div className="absolute inset-0 bg-black/40"></div>
@@ -78,7 +78,7 @@ export default function Hero() {
 
             </div>
 
-            {/* 🔥 HERO CONTENT */}
+            {/* HERO CONTENT */}
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}

@@ -5,9 +5,9 @@ export default function Contact() {
       <h2 className="text-3xl mb-6">Contact</h2>
 
       <div className="flex justify-center gap-4">
-        <a href="mailto:youremail@gmail.com">Email</a>
-        <a href="https://github.com/yourusername">GitHub</a>
-        <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+        <a href="mailto:mr.aayu25@gmail.com">Email</a>
+        <a href="https://github.com/Aayush-247">GitHub</a>
+        <a href="https://www.linkedin.com/in/aayush-code247">LinkedIn</a>
       </div>
 
     </section>
