@@ -5,7 +5,7 @@ export const projects = [
     tech: "Next.js, Tailwind CSS, Framer Motion",
     description:
       "A premium personal portfolio website with animations, glowing background, project showcase, and contact options.",
-    github: "https://github.com/Aayus-247/Portfolio",
+    github: "https://github.com/Aayus-247/portfolio",
     live: "#",
     features: [
       "Responsive design",
@@ -16,31 +16,32 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Museum Ticket System",
-    tech: "JavaScript, Node.js, Express",
+    title: "Student Result Analysis",
+    tech: "Python, Pandas, Matplotlib",
     description:
-      "A UI for managing museum tickets and displaying sales data.",
-    github: "https://github.com/Aayus-247/museum-ticket-system",
+      "A data analysis project to examine student scores, identify trends, and visualize performance.",
+    github: "https://github.com/Aayush-247/student-result-analysis",
     live: "#",
     features: [
-      "Ticket management",
+      "Data cleaning",
       "Visualization",
-      "UI development",
+      "Trend analysis",
       "Report generation",
     ],
   },
   {
     id: 3,
-    title: "Theme Engine UI",
+    title: "House Price Prediction",
     tech: "Python, Scikit-learn, Flask",
     description:
-      "A web app that tracks user interactions and dynamically switches themes based on behavior using machine learning.",
-    github: "https://github.com/Aayus-247/theme-engine-ui",
+      "A machine learning project that predicts house prices using regression models and user input values.",
+    github: "https://github.com/Aayush-247/house-price-prediction",
     live: "#",
     features: [
-      "Dynamic theme switching",
-      "User behavior tracking (clicks, scroll)",
-      "Responsive design",
+      "ML model training",
+      "Prediction system",
+      "Flask integration",
+      "User input form",
     ],
   },
   {
@@ -49,7 +50,7 @@ export const projects = [
     tech: "Python, NLP, Scikit-learn",
     description:
       "A text classification system that detects spam messages using machine learning and text preprocessing.",
-    github: "https://github.com/Aayus-247/spam-detection",
+    github: "https://github.com/Aayush-247/spam-detection",
     live: "#",
     features: [
       "Text preprocessing",
@@ -60,31 +61,18 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Weather Dashboard",
-    tech: "React, API, CSS",
+    title: "Theme engine for Web Apps",
+    tech: "React, JavaScript, CSS",
     description:
-      "A web app that fetches weather data from an API and shows forecasts in a clean dashboard UI.",
-    github: "https://github.com/Aayus-247/weather-dashboard",
+      "A theme engine for creating and managing themes in web applications.",
+    github: "https://github.com/Aayush-247/theme-engine",
     live: "#",
     features: [
-      "API integration",
-      "Responsive dashboard",
-      "Search by city",
-      "Live weather updates",
-    ],
-  },
-   {
-    id: 6,
-    title: "Resume Analyzer",
-    tech: "Python, NLP, Scikit-learn",
-    description:
-      "A text classification system that analyzes resumes and matches them with job descriptions.",
-    github: "https://github.com/Aayus-247/resume-analyzer",
-    features: [
-      "Text preprocessing",
-      "Classification model",
-      "Job matching",
-      "Mark your advantages and disadvantages",
+      "Theme management",
+      "Dynamic styling",
+      "Component-based design",
+      "Dynamic theme switching",
+      "User behavior tracking (clicks, scroll)",
     ],
   },
 ];
