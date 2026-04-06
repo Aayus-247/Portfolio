@@ -75,4 +75,20 @@ export const projects = [
       "User behavior tracking (clicks, scroll)",
     ],
   },
+  {
+    id: 6,
+    title: "AI Data Cleaning Automation Tool",
+    tech: "React, JavaScript, CSS",
+    description:
+      "An intelligent AI-powered tool that automatically cleans messy datasets by handling missing values, duplicates, and formatting issues.",
+    github: "https://github.com/Aayus-247/AutoClean-AI",
+    live: "https://myclean-ai.streamlit.app/",
+    features: [
+      "Handles structured CSV datasets of any size",
+       "Duplicate detection and removal",
+       "Automatic column-wise cleaning strategies",
+       "Detection of inconsistent formats (dates, text, numbers)",
+       "Outlier detection and handling (basic statistical approach)",
+    ],
+  },
 ];
