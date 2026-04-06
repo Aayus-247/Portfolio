@@ -47,14 +47,24 @@ export default function Page() {
 
             {/* EXPAND PANEL */}
             <div
-              className={`overflow-hidden transition-all duration-700 ${
-                active === p.id ? "max-h-[500px] mt-3" : "max-h-0"
-              }`}
+              className={`overflow-hidden transition-all duration-700 ${active === p.id ? "max-h-[500px] mt-3" : "max-h-0"
+                }`}
             >
               <div className="bg-gray-900/80 p-6 rounded-xl">
 
                 <p className="mb-4 text-gray-300">{p.description}</p>
-
+                {/* 🔥 LIVE LINK BUTTON */}
+                {p.live && p.live !== "#" && (
+                  <div className="mb-4">
+                    <a
+                      href={p.live}
+                      target="_blank"
+                      className="inline-block px-3 py-1 bg-green-500/20 text-green-400 rounded-lg hover:bg-green-500/40 transition"
+                    >
+                      🚀 Live Demo
+                    </a>
+                  </div>
+                )}
                 <h4 className="text-blue-400">Why this project?</h4>
                 <p className="text-gray-400 mb-3">
                   Real-world problem solving and learning practical skills.
