@@ -6,7 +6,7 @@ export const projects = [
     description:
       "A premium personal portfolio website with animations, glowing background, project showcase, and contact options.",
     github: "https://github.com/Aayus-247/portfolio",
-    live: "#",
+    live: "https://aayus-portfolio.vercel.app/",
     features: [
       "Responsive design",
       "Smooth animations",
@@ -36,7 +36,7 @@ export const projects = [
     description:
       "A machine learning project that predicts house prices using regression models and user input values.",
     github: "https://github.com/Aayus-247/Housing-Price-Analysis",
-    live: "#",
+    live: "https://houseworthprediction.streamlit.app/",
     features: [
       "ML model training",
       "Prediction system",
@@ -66,7 +66,7 @@ export const projects = [
     description:
       "A theme engine for creating and managing themes in web applications.",
     github: "https://github.com/Aayus-247/theme-engine",
-    live: "#",
+    live: "https://thengine.vercel.app/",
     features: [
       "Theme management",
       "Dynamic styling",
