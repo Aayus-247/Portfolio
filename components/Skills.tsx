@@ -34,7 +34,6 @@ export default function Skills() {
     { name: "Scikit-learn", icon: <SiScikitlearn /> },
     { name: "OpenAI", icon: <SiOpenai /> },
 
-    { name: "Git", icon: <FaGitAlt /> },
   ];
 
   return (

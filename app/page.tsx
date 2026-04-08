@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />   {/* 👈 YEH ADD KARNA HAI */}
+      <Skills />   
       <Projects />
       <Contact />
       <Footer />
