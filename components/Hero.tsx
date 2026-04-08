@@ -97,7 +97,7 @@ export default function Hero() {
                         Projects
                     </a>
 
-                    <a href="/software.pdf" className="border px-6 py-3 rounded-xl">
+                    <a href="/AayushResume.pdf" className="border px-6 py-3 rounded-xl">
                         Resume
                     </a>
                 </div>
